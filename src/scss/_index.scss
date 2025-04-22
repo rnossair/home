@@ -77,7 +77,7 @@ code {
   }
 }
 .socialicons {
-  color: black;
+  color: white;
   padding-left: 5px;
   padding-right: 5px;
   transition: all 0.8s;
@@ -89,6 +89,10 @@ code {
     transition: all 0.8s;
     margin: 4px;
   }
+}
+
+.btn-dark{
+  color:white;
 }
 
 .title {
