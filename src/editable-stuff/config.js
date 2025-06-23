@@ -9,7 +9,7 @@ const mainBody = {
   firstName: "Rayane",
   middleName: "",
   lastName: "Nossair",
-  message: " Passionate about changing the world with technology. ",
+  message: " Passionate about building software for good ",
   icons: [
     {
       image: "fa-github",
@@ -43,11 +43,11 @@ const mainBody = {
 const about = {
   show: true,
   heading: "About Me",
-  imageLink: require("../editable-stuff/old.jpg"),
+  imageLink: require("../editable-stuff/pfp.png"),
   imageSize: 375,
   message:
-    "My name is Rayane. I am currently pursuing a Bachelor's degree in Computer Science at Grinnell College: most of my experience centers around full-stack web development, which I have taught myself through online curriculums and project work.",
-  resume: "../editable-stuff/resume.pdf",
+    "Hi! I’m Rayane, a rising sophomore at Grinnell College studying Computer Science. Most of my experience centers around full-stack web development, which I have taught myself through online curriculums and project work.",
+  resume: require("../editable-stuff/resume.pdf"),
 };
 
 // PROJECTS SECTION
@@ -57,7 +57,7 @@ const about = {
 //      i.e ["repository-1", "repo-2"]
 const repos = {
   show: true,
-  heading: "Recent Projects",
+  heading: "Recent Github Projects",
   gitHubUsername: "rnossair", //i.e."johnDoe12Gh"
   reposLength: 4,
   specificRepos: [],
@@ -114,7 +114,7 @@ const getInTouch = {
   show: true,
   heading: "Get In Touch",
   message:
-    "I'm currently looking for full-time Software Engineering or Web Development opportunities! If you know of any positions available, if you have any questions, or if you just want to say hi, please feel free to email me at",
+    "I'm currently looking for Software Engineering or Web Development internships! If you know of any positions available, if you have any questions, or if you just want to say hi, please feel free to email me at",
   email: "nossairr@grinnell.edu",
 };
 
@@ -126,6 +126,11 @@ const experiences = {
       role: 'YJSR | Web Developer',
       companylogo: require('../assets/img/YJSR.png'),
       date: 'May 2023 – March 2024',
+    },
+      {
+      role: 'Grinnell College | Computer Science Grader',
+      companylogo: require('../assets/img/grinnell.png'),
+      date: 'August 2025 - Present',
     },
   ]
 }
