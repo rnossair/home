@@ -1,7 +1,8 @@
 version: 1
-app:
-  build: npm install && npm run build
-  start: npm run start -- -p ${PORT:-3000} -H 0.0.0.0
-  env:
-    NODE_ENV: production
-    PORT: 3000
+deployment:
+  tasks:
+    - export DEPLOYPATH="$HOME/public_html"
+    - npm ci
+    - npm run build
+    - mkdir -p "$DEPLOYPATH"
+    - /bin/cp -r out/. "$DEPLOYPATH"/
