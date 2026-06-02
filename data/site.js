@@ -30,9 +30,7 @@ export const site = {
         date: 'June 2026 - July 2026',
         imageHref: '/images/companies/dxc.svg',
         responsibilities: [
-          'Built developer-facing web tools using React and Node.js',
-          'Implemented reusable UI components and improved test coverage',
-          'Assisted in migrating legacy UI components to modern frameworks',
+          'Under Construction',
         ],
       },
       {
@@ -41,9 +39,9 @@ export const site = {
         date: 'August 2025 - Present',
         imageHref: '/images/companies/grinnell.png',
         responsibilities: [
-          'Grade assignments and provide targeted feedback to students',
+          'Assist in grading and developing autograders for coding assignments in an introductory computer science course.',
           'Hold weekly office hours for debugging and problem-solving help',
-          'Support exam prep and reinforce data structures fundamentals',
+          'Provide constructive feedback on students’ programming style, logic, and problem-solving approaches.',
         ],
       },
       {
@@ -52,9 +50,9 @@ export const site = {
         date: 'May 2023 - March 2024',
         imageHref: '/images/companies/YJSR.png',
         responsibilities: [
-          'Built responsive front-end features and polished UI interactions',
-          'Collaborated with stakeholders to iterate on UX and requirements',
-          'Deployed updates and maintained the site with modern tooling',
+          'Developed a self-service portal to simplify article conversion into HTML markdown, reducing publishing time by 40%',
+          'Collaborated with authors and editors to ensure high-quality content standards across a library of 300+ STEM articles.',
+          'Managed and tracked changes using Git and GitHub for efficient production deployment.',
         ],
       },
     ],
